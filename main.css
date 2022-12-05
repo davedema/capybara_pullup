@@ -152,4 +152,32 @@ h3{
 }
 
 
+@media screen and (max-width: 600px){
+    .c-type-wrap{
+        height: 100%;
+        width: 100vw;
+        position: relative;
+        display: block;
+        color: black;
+        text-transform: uppercase;
+        font-size: 8vh;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        left: 0vw;
+    }
+
+    .volumeIcon{
+        position: fixed;
+        top: 50px;
+        right: 50px;
+        width: 8%;
+        z-index: 2;
+        height: auto;
+    }
+    body{
+        overflow-x: hidden;
+    }
+
+}
+
 /*# sourceMappingURL=main.css.map*/
